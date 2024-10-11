@@ -1,0 +1,53 @@
+*{
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    color: violet;
+    text-align: center;
+    font-size:large;
+}   
+
+section div{
+    padding: 20px;
+    border: 10px;
+    text-align: center;
+}
+
+section div form{
+    border: gray solid 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    margin: auto;
+    width: 300px;
+    background-color:ghostwhite;
+}
+
+
+section div form label, input {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px; 
+    background-color: ghostwhite;
+}
+
+section div form input[type="text"] {
+    width: 150px;
+}
+
+section div form select, input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    background-color: ghostwhite;
+}
+
+.round{
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    behavior: url(border-radius.htc);
+}

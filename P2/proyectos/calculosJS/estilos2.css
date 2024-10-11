@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    background-image: url(pexels-ian-panelo-3729557.jpg);
+    background-size: cover;
+}
+
+#principal{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1900px;
+}
+
+h1{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    text-align: center;
+    color: red;
+    font-size: 3vw;
+    font-weight: normal;
+    font-style: italic;
+}
+
+form{
+    margin-top: 2vw;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+}
