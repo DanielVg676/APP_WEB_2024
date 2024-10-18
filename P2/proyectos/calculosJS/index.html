@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos2.css">
 </head>
 
-<body >
+<body>
 
     <header>
         <h1>.:Calculadora Basica:.</h1>
@@ -20,15 +20,15 @@
         <div>
             <form action="" class="round">
                 <label for="num1">Numero 1:</label>
-                <input type="number" id="n1" autofocus class="round">
+                <input type="number" id="n1" autofocus class="caja1">
                 <br>
                 <br>
                 <label for="num2">Numero 2:</label>
-                <input type="number" id="n2" autofocus class="round">
+                <input type="number" id="n2" autofocus class="caja1">
                 <br>
                 <br>
                 <label for="operacion">Tipo de Operacion:</label>
-                <select id="tipo" class="round">
+                <select id="tipo" class="caja1">
                     <option value="+">Suma</option>
                     <option value="-">Resta</option>
                     <option value="/">Division</option>
@@ -36,8 +36,8 @@
                 </select>
                 <br>
                 <br>
-                <input type="button" name="calcular" value="Calcular" onclick="operaciones()" class="round">
-            </form> 
+                <input id="boton" type="button" name="calcular" value="Calcular" onclick="operaciones()" class="round">
+            </form>
         </div>
 
         <div id="resultado"></div>
