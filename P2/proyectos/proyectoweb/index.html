@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ProyectoWeb</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/ab4fa16bfb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+
+
 </head>
+
 <body>
-    
+    <header id="inicio">
+    </header>
+    <main>
+        <section id="sobremi">
+            <div class="contenedor">
+                <img src="img/sobremi.jpg" alt="sobremi">
+                <div>
+                    <h1>Mi nombre</h1>
+                    <p>Mi nombre es dagoberto Fiscal Gurrola soy docente de la Universidad Tecnologica de Durango,
+                        actualmente trabajo en la carrera de Tecnologias de la informacion, imparto las materias de
+                        Aplicaciones Web.</p>
+                    <p>Las tecnoloigas de desarrollo web que actualmente utilizamos en los proyectos que se desarrollan
+                        son: HTML para la maquetacion, CSS hojas de estilo para el diseño, JavaScript programacion del
+                        lado del cliente, PHP como programacion del lado del servidor y como Gestor de Base de Datos
+                        MariaDB o MySQL.</p>
+                    <p>Te puedes poner en contacto conmigo por e-mail: <a
+                            href="mailto:dagoberto.fiscal@utd.edu.mx">dagoberto.fiscal@utd.edu.mx</a></p>
+                    <button>VER MIS TRABAJOS</button>
+                </div>
+                <a href="#inicio" class="icon-facebook"></a>
+                <div class="icon-facebook"></div>
+        </section>
+
+
+        <!--    
+        <header>
+            <h1>Sobre Mi</h1>
+        </header>
+
+        <section>
+        <img src="img/sobremi.jpg" alt="sobremi">
+        <div>
+            <p>Mi nombre es dagoberto Fiscal Gurrola soy docente de la Universidad Tecnologica de Durango, actualmente trabajo en la carrera de Tecnologias de la informacion, imparto las materias de Aplicaciones Web.</p>
+            <p>Las tecnoloigas de desarrollo web que actualmente utilizamos en los proyectos que se desarrollan son: HTML para la maquetacion, CSS hojas de estilo para el diseño, JavaScript programacion del lado del cliente, PHP como programacion del lado del servidor y como Gestor de Base de Datos MariaDB o MySQL.</p>
+            <p>Te puedes poner en contacto conmigo por e-mail: <a href="mailto:dagoberto.fiscal@utd.edu.mx">dagoberto.fiscal@utd.edu.mx</a></p>
+            <button>VER MIS TRABAJOS</button>
+        </div>
+        </section>
+        -->
+    </main>
+    <footer id="pie">
+
+    </footer>
+
+    <!-- Burbujas Whatsapp y Phone -->
+    <div class="callbutton">
+        <div id="WAButton"></div>
+        <div class="llamada">
+            <a href="tel:618" class="fas fa-phone-alt"></a>
+        </div>
+    </div>
+
+    <!-- Codigo para que funcione la burbuja de Whatsapp -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#WAButton').floatingWhatsApp({
+                phone: '521618', //Número de telefono (Con prefijo 521 para México)
+                headerTitle: '¡Envíanos un mensaje!', //Título de la ventana
+                popupMessage: '¡Hola!, Gracias por confiar en nosotros. ¿En qué te podemos ayudar?', //Mensaje de la ventana
+                showPopup: true, //Permite que esté visible el botón flotante
+                buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" class="imgpop" />', //Button Image
+                position: "right"
+            });
+        });
+    </script>
 </body>
+
 </html>
