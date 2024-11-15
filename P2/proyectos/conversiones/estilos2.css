@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    background-image: url(pexels-ian-panelo-3729557.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#principal{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1900px;
+}
+
+h1{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    text-align: center;
+    color: red;
+    font-size: 3vw;
+    font-weight: normal;
+    font-style: italic;
+    background-color: hsla(206, 100%, 99%, 0.384);
+}
+
+h2,p {
+    text-align: center;
+    background-color: hsla(206, 100%, 99%, 0.384);
+}
+
+form{
+    margin-top: 2vw;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+}
+
+hr{
+    color: white;
+}
+
+caja1{
+    font-size: 2VW  ;
+    font-weight: bolder;
+    color: black;
+    width: auto;
+    width: 10%;
+    border-radius: 4px;
+}
+
+#tipo{
+    width: auto;
+}
+
+#boton {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding: 2vw;
+    font-size: 2vw;
+    background-color: #1a1b1f66;
+    border-radius: 10%;
+    border: 1px solid #1a1b1f66;
+    color: white;
+    transition: padding 0.5s ease;
+}
+#boton:hover{
+    background-color: grey;
+    border: 1px solid grey;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#boton:active{
+    background-color: green;
+    border: 1px solid green;
+    color: black;
+}
