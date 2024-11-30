@@ -25,3 +25,18 @@ def vision(request):
         'title': 'Nuetsra Vision',
         'content': 'Nuestra vision es ver por un futuro con mejores profesionisras',
     })
+
+def page404(request, exception):
+    return render(request, 'mainapp/404.html')
+
+def login(request):
+    return render(request, 'mainapp/login.html',{
+        'title': 'Inicio',
+        'content': 'Bienvenido a la pagina principal',
+    })
+
+def registro(request):
+    return render(request, 'mainapp/registro.html',{
+        'title': 'Inicio',
+        'content': 'Bienvenido a la pagina principal',
+    })
